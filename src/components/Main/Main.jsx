@@ -14,7 +14,7 @@ const Main = () => {
 			<div className="main__show-btn">
 				<button className="show__btn">
 					Show map
-					<img src="./../../public/img/icons/map.svg" alt="" />
+					<img src="./public/img/icons/map.svg" alt="" />
 				</button>
 			</div>
 				{

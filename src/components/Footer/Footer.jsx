@@ -28,7 +28,7 @@ const Footer = () => {
 							<span>&middot;</span>
 							<div className="footer__desc_links-icon">
 								<a href="#!">Privacy</a>
-								<img src="./../../public/img/icons/pivacy.svg" alt="pivacy" />
+								<img src="./public/img/icons/pivacy.svg" alt="pivacy" />
 							</div>
 						</div>
 					</div>
