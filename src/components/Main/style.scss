@@ -1,0 +1,43 @@
+.main__cards {
+	display: grid;
+	gap: 40px 24px;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.main__show-btn {
+	height: 100%;
+	position: sticky;
+	bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 1;
+	transition: all .3s ease-in-out;
+}
+
+.hidden {
+	transition: all .3s ease-in-out;
+	position: absolute;
+	opacity: 0;
+}
+
+.show__btn {
+	background-color: #222;
+	border-radius: 25px;
+	color: #EBEBEB;
+
+	padding: 15px 20px;
+
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 129%;
+	text-align: center;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+}

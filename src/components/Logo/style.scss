@@ -1,0 +1,10 @@
+.logo-img {
+	filter:
+	brightness(0) saturate(100%) invert(0%) sepia(99%) saturate(5%) hue-rotate(8deg) brightness(102%) contrast(102%);
+	transition: all .1s ease-in;
+
+	&:hover {
+		filter: none;
+		transition: all .1s ease-in
+	}
+}

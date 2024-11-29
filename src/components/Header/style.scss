@@ -1,0 +1,37 @@
+.header {
+/* 	padding: 24px 0; */
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.container {
+	width: 100%;
+	max-width: 1310px;
+
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.header__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	margin-bottom: 20px;
+}
+
+.header__category {
+	display: flex;
+	transform: translateX(100px) scale(1.1);
+}
+
+.header__logo {
+
+}
+
+.header__search {
+
+}
+
+.header__user {
+
+}

@@ -1,0 +1,28 @@
+.user-menu {
+	display: flex;
+	align-items: center;
+	
+}
+
+.user-menu__home {
+	padding: 10px 0;
+	border-radius: 40px;
+
+	&:hover {
+		transition: all .2s ease-in;
+		background-color: rgb(242, 242, 242);
+	}
+}
+
+.user-menu__local {
+	transition: all .2s ease-in;
+	&:hover {
+		transition: all .2s ease-in;
+		transform: scale(1.2);
+
+	}
+}
+
+.user-menu__user {
+	position: relative;
+}
